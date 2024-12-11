@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.test.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.225 s <<< FAILURE! - in org.test.runner.TestRunner
+To verify the Adactin Hotels Bookings.To verify the Adactin Hotels Booking confirmation  Time elapsed: 14.853 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Invalid Login details or Your Password might have expired. Click here to reset your password]> but was:<[[[EdgeDriver: MicrosoftEdge on WINDOWS (4b67c2ec4d51dd6506f2e6b246502642)] -> xpath: //div[@class='auth_error']]]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.test.adactin.booking.AdactinHotelsBooking.user_enters_the_and_click_the_login_button(AdactinHotelsBooking.java:64)
+	at ✽.user enters the "DharmaEswari" , "JD56FA1" and click the login button(file:///C:/Users/nagash%20ak/OneDrive/Desktop/JAVA/eclipse/CucumberAdactinHotel/src/test/resources/AdactinHotel.feature:6)
+
